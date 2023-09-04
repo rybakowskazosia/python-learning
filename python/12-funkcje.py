@@ -1,26 +1,26 @@
-# countries_information = {}
-# countries_information["Polska"] = ("Warszawa", 37.97)
-# countries_information["Niemcy"] = ("Berlin", 83.02)
-# countries_information["Słowacja"] = ("Bratysława", 5.45)
+countries_information = {}
+countries_information["Polska"] = ("Warszawa", 37.97)
+countries_information["Niemcy"] = ("Berlin", 83.02)
+countries_information["Słowacja"] = ("Bratysława", 5.45)
 
-# def show_country_info(country):
-#     country_information = countries_information.get(country)
+def show_country_info(country):
+    country_information = countries_information.get(country)
 
-#     print()
-#     print(country)
-#     print("-------")
-#     print("Stolica: " + country_information[0])
-#     print("Liczba mieszkańców (mln):" + str(country_information[2]))
+    print()
+    print(country)
+    print("-------")
+    print("Stolica: " + country_information[0])
+    print("Liczba mieszkańców (mln):" + str(country_information[2]))
 
 
-# for country in countries_information.keys():
-#     print(country)
+for country in countries_information.keys():
+    print(country)
 
-# country = input("Informacje o jakim kraju chcesz wyświetlić? ")
-# show_country_info(country)
+country = input("Informacje o jakim kraju chcesz wyświetlić? ")
+show_country_info(country)
 
-# country_information = countries_information.get(country)
-
+country_information = countries_information.get(country)
+'''
 def display_sum(a, b):
     print(a+b)              #ta funkcja przyjmuje dwa arguenty i wyświetla ich sumę
 
@@ -36,3 +36,4 @@ def print_message():
 
 sum = display_sum(2, 3)
 print(sum)
+'''
